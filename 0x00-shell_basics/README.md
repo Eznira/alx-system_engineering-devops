@@ -1,1 +1,1 @@
-0-current_working_directory prints the current working directory
+This repo contains code that teaches fundamental CS principles 
