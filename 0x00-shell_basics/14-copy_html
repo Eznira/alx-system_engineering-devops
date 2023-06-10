@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --update --exclude='*' --include='*.html' ./ ../
+find . -maxdepth 1 -name "*.html" -newer ../ -exec cp -u {} ../ \;
