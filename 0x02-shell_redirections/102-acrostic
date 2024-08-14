@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -printf "%P\n"
+cut -c1 | paste -sd ""
